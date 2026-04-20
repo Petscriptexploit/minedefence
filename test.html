@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Scholtek Home</title>
+
+		<!-- Global Styles -->
+		<link href="/static/lib/bootstrap/bootstrap.css" rel="stylesheet">
+		<link href="/static/css/scholtek/custom.css" rel="stylesheet">
+		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />  
+
+		<!-- Custom Styles -->
+		
+<link href="/static/css/scholtek/home.css" rel="stylesheet">
+
+
+
+	</head>
+
+	<body>
+
+
+		<div id="wrap">
+			<div class="container">
+			
+				<!-- Static navbar -->
+				<div class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+					
+						<div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							  <span class="sr-only">Toggle navigation</span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="/">Scholtek</a>
+						</div>
+						
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								
+								
+
+								
+
+								<li><a href="/blog">Blog</a></li>
+								<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="/minedefense">Mine Defense</a></li>
+									<li><a href="/blackhole">Black Hole Filler Extreme</a></li>
+								</ul>
+								</li>
+
+								<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="/mathart">Math Art Sandbox</a></li>
+									<li><a href="/isocode">Latin-Like Unicode Generator</a></li>
+									<li><a href="/bible">Optimal Bible Plan Generator</a></li>
+								</ul>
+								</li>
+
+								<!-- Optional Message for New Content -->
+<!-- 								<li class="content-alert">
+									<a class="content-alert-link" href="/isocode">New Project: Isocoder!</a>
+								</li> -->
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="/aboutme">About Me</a></li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</div><!--/.container-fluid -->
+				</div>
+
+				
+<div class="contents">
+
+	<div class="page-header">
+		<h1 class="page-title">Scholtek</h1>
+	</div>
+		
+	<p>
+		Welcome to Scholtek Gaming! Scholtek.com is my personal website which I use to keep my web development skills sharp, and show off my games and whatever else I'm working on. Take a look at what I have below!
+	</p>
+
+	<div class="category-div">
+		<h2>Games</h2>
+
+		<div class="preview" id="minedefense">
+			<div class="preview-thumbnail">
+				<img class="preview-image" src="/static/resources/minedefense/thumbnail.jpg">
+			</div>
+			<div class="preview-desc">
+				<div class="preview-text">
+					<p class="preview-title">Mine Defense</p>
+					<p class="preview-description">
+						Mine Defense is the game that made me decide to make a website. After getting addicted to some of the incremental games that were beginning to become popular, it seemed like a great genre to learn Javascript and web development.
+					</p>
+					<p class="preview-description">
+						While the art is lacking, and the music is non-existent, Mine Defense is complex enough to keep people interested for days or even weeks. If you're not familiar with the genre, give it a chance - I suspect you'll enjoy it.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="preview" id="blackhole">
+			<div class="preview-thumbnail">
+				<img class="preview-image" src="/static/resources/blackhole/thumbnail.png">
+			</div>
+			<div class="preview-desc">
+				<div class="preview-text">
+					<p class="preview-title">Black Hole Filler Extreme</p>
+					<p class="preview-description">
+						Black Hole Filler Extreme is a game where you, as some strange all-powerful space being, must fill a stage with black holes without letting the black hole destroying fleet take them out. The longer you play the crazier it gets and the more cool enemies will appear.
+					</p>
+					<p class="preview-description">
+						This game was my first attempt at making a regular game with physics and music and all that fun stuff. It's made with the Phaser Game Engine and provided a great introduction to game development for me.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="category-div">
+		<h2>Projects</h2>
+
+		<div class="preview" id="mathart">
+			<div class="preview-thumbnail">
+				<img class="preview-image" src="/static/resources/mathart/thumbnail.jpg">
+			</div>
+			<div class="preview-desc">
+				<div class="preview-text">
+					<p class="preview-title">Javascript Math Art</p>
+					<p class="preview-description">
+						Math Art is an app inspired by a Stack Overflow discussion about pictures that can come from mathematical formulas. It works by defining an RGB value for each pixel using a formula based on the coordinates of the pixel.
+					</p>
+					<p class="preview-description">
+						If you're into math or art, and have a very basic understanding of Javascript, I recommend you give it a try. And if you feel like it, send me an <a href="mailto:contact@scholtek.com">email</a> with your creation - maybe I'll create a gallery of the coolest things I've seen.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="preview" id="isocode">
+			<div class="preview-thumbnail">
+				<img class="preview-image" src="/static/resources/isocode/thumbnail.png">
+			</div>
+			<div class="preview-desc">
+				<div class="preview-text">
+					<p class="preview-title">Isocode</p>
+					<p class="preview-description">
+						Isocode is an app born out of a practical desire to test unicode without needing to actually write unicode. While working on internationalization of a work website, I began working on translations, just to find that the translations worked fine but many other things broke down with unicode characters, so I needed a way to test unicode characters - I could make a translation file filled with gibberish, or...
+					</p>
+					<p class="preview-description">
+						I could build isocode. Type latin alphabet characters in the left box, and the right box will fill up with similar looking unicode characters. It allows you to test unicode support while still being able to read the text.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+</div>
+
+
+			</div> <!-- Container -->
+
+			<div id="push"></div>
+		</div> <!--Wrap-->
+
+		<div id="footer">
+			<div class="container">
+				<p class="footer-text">&copy; Keilan - contact@scholtek.com</p>
+			</div>
+		</div>
+
+		<!-- Global Scripts -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+
+		<script src="/static/lib/bootstrap/bootstrap.js"></script>
+
+		<!-- Custom Scripts -->
+		
+<script src="/static/js/scholtek/home.js"></script>
+
+
+		
+			
+		
+
+	</body>
+
+</html>
